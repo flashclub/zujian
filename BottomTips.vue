@@ -6,7 +6,7 @@
   >
     <div @click.stop="wrapContent">
       <img
-        src="https://img.sfystatic.com/upload/tmp/images/activity/xyf-mobile/fly/left-icon.png"
+        src=""
         alt=""
         @click="closeWrap"
       >
@@ -31,7 +31,7 @@ export default {
   props: {
     titleText: {
       //顶部文字内容
-      default: '关联京东账户提示',
+      default: '',
       type: String,
     },
     text: {
